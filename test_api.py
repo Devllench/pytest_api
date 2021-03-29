@@ -2,7 +2,7 @@ import pytest
 import requests
 import time
 
-from client_class import ValidAssertClass
+from date_class import ValidAssertClass
 
 
 class TestApiClass:
