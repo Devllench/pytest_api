@@ -11,3 +11,8 @@ def send_request(url_test):
         return response.content.decode()
     elif response.status_code == 200:
         print("502, a lot of request")
+
+
+def get_test_data(body, left_border, right_border):
+    data = body[body.find(left_border):body.find(right_border)]
+    return data
