@@ -9,7 +9,7 @@ def send_request(url_test):
     response = requests.get(url_test)
     if response.status_code == 200:
         return response.content.decode()
-    elif response.status_code == 200:
+    elif response.status_code == 502:
         print("502, a lot of request")
 
 

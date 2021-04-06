@@ -1,6 +1,4 @@
 import pytest
-import requests
-import time
 
 
 @pytest.fixture()
