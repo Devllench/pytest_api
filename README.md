@@ -1,10 +1,10 @@
-<h2>Тесты для API.</h2>
+<h2>DDT Тесты для API.</h2>
 
 Для запуска тестов должен быть установлен Pytest и requests.
 
 <code>pip3 install pytest,requests</code>
 
-Загрузка pytest_test_grep.
+Загрузка pytest_api.
 
 <code>git clone https://github.com/Devllench/pytest_api.git</code>
 
